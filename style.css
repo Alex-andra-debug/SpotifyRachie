@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{  
+/* border: 2px solid red; */
+height: 100%;
+}
+header{
+    background-color: black;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    /* Media Coding also means mobile responsiveness */
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 5em;
+    border: none;
+}
+img{
+    height: 5em;
+}
+button:hover{
+    background-color: white;
+    color: green;
+}
+a:hover{
+    text-decoration: overline;
+}
